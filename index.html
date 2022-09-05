@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mekashron</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <!-- Header Top -->
+            <div class="header-top">
+                <div class="d-block d-sm-none mobile-navbar">
+                    <div class="mobile-header-top">
+                        <a href="#" id="hamburger-menu">
+                            <img src="./assets/img/menu.svg" alt="menu">
+                        </a>
+
+                        <a href="#" class="header-top--logo">
+                            <img src="./assets/img/logo.svg" class="img-fluid" alt="logo">
+                        </a>
+
+                        <a href="#">
+                            <img src="./assets/img/avatar.svg" class="img-fluid" alt="avatar">
+                        </a>
+                    </div>
+                    <!-- Mobile Navbar Menu -->
+                    <div class="mobile">
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+                <!-- Wide Screen Logo -->
+                <a href="#" class="header-top--logo d-none d-sm-block wide-screen-logo">
+                    <img src="./assets/img/logo.svg" class="img-fluid" alt="logo">
+                </a>
+                <!-- Login -->
+                <div class="header-top--account">
+                    <span class="header-top--paragraph">
+                        Welcome <span class="font-bold">Roma - </span><a class="header-top--logout" href="#">Logout</a>
+                    </span>
+                    <span class="header-top--paragraph">
+                        Your balance: <span class="font-bold">P 0,00</span>
+                        <span class="header-top--paragraph"> </span>
+                    </span>
+                </div>
+                <div class="header-top--action d-none d-md-block">
+                    <div class="social-media">
+                        <a href="#" class="social-media--item">
+                            <img src="./assets/img/facebook.svg" alt="">
+                        </a>
+                        <a href="#" class="social-media--item">
+                            <img src="./assets/img/twitter.svg" alt="">
+                        </a>
+                        <a href="#" class="social-media--item">
+                            <img src="./assets/img/facebook-messenger.svg" alt="">
+                        </a>
+                        <a href="#" class="social-media--item">
+                            <img src="./assets/img/whatsapp.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="language">
+                        <span>
+                            <img src="./assets/img/Group.svg" alt="">
+                        </span>
+                        <span>English</span>
+                        <span><img src="./assets/img/Vector.svg" alt=""></span>
+                        <div class="language--toggle">
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Main -->
+            <div class="header-main d-sm-flex d-none">
+                <div class="header-main--navigation">
+                    <a href="#">Home</a>
+                    |
+                    <a href="#">Play All Lottery</a>
+                    |
+                    <a href="#">Lottery Groups</a>
+                    |
+                    <a href="#">Promotions</a>
+                </div>
+                <a href="#" class="header-main--action">My Account</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <!-- Top Section -->
+            <div class="top-section">
+                <a href="#" class="top-section--action">
+                    <img src="./assets/img/banner.svg" class="img-fluid" alt="banner">
+                </a>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./assets/img/Ресурс 1 1.svg" alt="#">
+                        <span class="text">
+                            <span class="text--header">
+                                <span class="font-light-bold">You Pick</span>
+                                <a href="#">Play Now >></a>
+                            </span>
+                            <span class="text--body">
+                                It's easy! Pick from over 40 official lottery games
+                                you wish to play. Then select your winning number.
+                            </span>
+                        </span>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/icon.svg" alt="#">
+                        <span class="text">
+                            <span class="text--header">
+                                <span class="font-light-bold">We Buy</span>
+                                <a href="#">More Details >></a>
+                            </span>
+                            <span class="text--body">
+                                Once you’ve picked your winning numbers we’ll purchase your ticket on your behalf.
+                            </span>
+                        </span>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/Ресурс 1 2.svg" alt="#">
+                        <span class="text">
+                            <span class="text--header">
+                                <span class="font-light-bold">You Win</span>
+                                <a href="#">Withdraw My Winnings >></a>
+                            </span>
+                            <span class="text--body">
+                                When you win, we’ll automatically credit your account the full value of your winnings.
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Lottery -->
+            <div class="lottery">
+                <h3 class="lottery--header">
+                    BIGGEST UPCOMING LOTTERY DRAWS
+                </h3>
+
+                <div class="lottery--cards">
+                    <div class="card">
+                        <div class="card--brends">
+                            <img src="./assets/img/mega-millions-lo.svg" alt="">
+                            <span class="value-flag">
+                                <span class="flag-million">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span>
+                                        Mega Millions
+                                    </span>
+                                </span>
+                                <span class="value-usd">
+                                    $94 000 000
+                                </span>
+                            </span>
+                        </div>
+                        <div class="card--apply">
+                            <a href="#" class="play-now">
+                                Play Now
+                            </a>
+                            <span class="play-time">
+                                <img src="./assets/img/alarm.svg" alt="alarm">
+                                <span>
+                                    1:22:01
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card--brends">
+                            <img src="./assets/img/mega-millions-logo.svg" alt="">
+                            <span class="value-flag">
+                                <span class="flag-million">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span>
+                                        Mega Millions
+                                    </span>
+                                </span>
+                                <span class="value-usd">
+                                    $94 000 000
+                                </span>
+                            </span>
+                        </div>
+                        <div class="card--apply">
+                            <a href="#" class="play-now">
+                                Play Now
+                            </a>
+                            <span class="play-time">
+                                <img src="./assets/img/alarm.svg" alt="alarm">
+                                <span>
+                                    1:22:01
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card--brends">
+                            <img src="./assets/img/mega-millions-log.svg" alt="">
+                            <span class="value-flag">
+                                <span class="flag-million">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span>
+                                        Mega Millions
+                                    </span>
+                                </span>
+                                <span class="value-usd">
+                                    $94 000 000
+                                </span>
+                            </span>
+                        </div>
+                        <div class="card--apply">
+                            <a href="#" class="play-now">
+                                Play Now
+                            </a>
+                            <span class="play-time">
+                                <img src="./assets/img/alarm.svg" alt="alarm">
+                                <span>
+                                    1:22:01
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Lottery Online -->
+            <div class="lottery-online">
+                <div class="lottery-online--header font-bold">
+                    PLAY UPCOMING LOTTERIES ONLINE
+                </div>
+                <div class="lottery-online--cards">
+                    <div class="card-grid">
+                        <div class="inner-card">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-family font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card d-none d-md-flex">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-family font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card d-none d-md-flex">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-family font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card d-none d-md-flex">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-family font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="inner-card d-none d-md-flex">
+                            <div class="lottery-star">
+                                <img src="./assets/img/star.svg" alt="star">
+                            </div>
+                            <div class="lottery-logo">
+                                <img src="./assets/img/mega-millions-logo-online.svg" alt="logo">
+                            </div>
+                            <div class="lottery-group">
+                                <div class="lottery-group--frame">
+                                    <img src="./assets/img/Country.svg" alt="flag">
+                                    <span class="font-family font-light-bold">
+                                        Mega Millions
+                                    </span>
+                                </div>
+                                <div class="lottery-group--price font-bold">
+                                    $122 000 000
+                                </div>
+                                <div class="lottery-group--time font-light-bold">
+                                    <img src="./assets/img/alarm-blue.svg" alt="">
+                                    <span>
+                                        1:22:01
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lottery-bg">
+                                <a href="#">
+                                    Play Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="lottery-online--more">
+                    <a href="#">
+                        All Lotteries
+                    </a>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="winner-card">
+                <!-- Winner Card Frame -->
+                <div class="winner-card--frame">
+                    <div class="frame-title font-bold">
+                        Biggest Lottery Winner
+                    </div>
+                    <div class="frame-main">
+                        <div class="frame-main--header">
+                            <img src="./assets/img/120_70 (7) 1.svg" alt="lotto">
+                            <span class="frame-main--header--text">
+                                <span class="font-light-bold value-won">
+                                    Won
+                                </span>
+                                <span class="font-bold value-number">
+                                    $100 000 000
+                                </span>
+                            </span>
+                        </div>
+                        <div class="frame-main--main">
+                            <span class="frame-main--main--img">
+                                <img src="./assets/img/Group 285.svg" alt="">
+                                <span class="lotto-results-date d-flex d-md-none">
+                                    <span class="lotto-results">
+                                        <span class="lotto-results--text font-light-bold">UK LOTTO
+                                            RESULTS:</span>
+                                        <span class="lotto-results--img font-light-bold">07</span>
+                                        <span class="lotto-results--img font-light-bold">07</span>
+                                        <span class="lotto-results--img font-light-bold">07</span>
+                                        <span class="lotto-results--img font-light-bold">07</span>
+                                        <span class="lotto-results--img font-light-bold">07</span>
+                                    </span>
+                                    <span class="lotto-date font-normal">
+                                        Date: 10.11.2021
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="main-text">
+                                <span class="main-text--header font-light-bold">
+                                    Shaun Vincent a Lottery Winner
+                                </span>
+                                <span class="main-text--text font-normal">
+                                    Shaun Vincent, from Barnsley, celebrates his £1,158,038 National Lottery win after
+                                    his cheque presentation at the Cedar Court Hotel, Wakefield.
+                                </span>
+                                <a href="#" class="main-text--link">
+                                    Read the full story
+                                </a>
+                            </span>
+                        </div>
+                        <div class="frame-main--footer">
+                            <span class="lotto-results-date d-none d-md-block">
+                                <span class="lotto-results ">
+                                    <span class="lotto-results--text font-light-bold">UK LOTTO
+                                        RESULTS:</span>
+                                    <span class="lotto-results--img font-light-bold">07</span>
+                                    <span class="lotto-results--img font-light-bold">07</span>
+                                    <span class="lotto-results--img font-light-bold">07</span>
+                                    <span class="lotto-results--img font-light-bold">07</span>
+                                    <span class="lotto-results--img font-light-bold">07</span>
+                                </span>
+                                <span class="lotto-date font-normal">
+                                    Date: 10.11.2021
+                                </span>
+                            </span>
+                            <span class="play-now">
+                                Play Now
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Winner Card Group-->
+                <div class="winner-card--group">
+                    <div class="group-title font-bold">
+                        Our Latest Winner
+                    </div>
+                    <!-- Winner Frame Groups -->
+                    <div class="winner-group-frame">
+                        <!-- Winner Frame -->
+                        <div class="winner-frame">
+                            <span class="font-family font-normal winner-frame--header">
+                                Total prizes paid out
+                            </span>
+                            <span class="winner-frame--main font-bold">
+                                US$ 107 233 768
+                            </span>
+                            <span class="winner-frame--footer">
+                                <span class="font-light-bold number">6 975 146 </span>
+                                <span class="font-normal ticket">winning tickets</span>
+                            </span>
+                        </div>
+                        <!-- Winner Groups -->
+                        <div class="winner-groups">
+                            <div class="winner-group">
+                                <div class="winner-group--logo">
+                                    <img src="./assets/img/winner 1.svg" alt="logo">
+                                </div>
+                                <div class="winner-group--country">
+                                    <span class="date font-normal">
+                                        20.11.2021
+                                    </span>
+                                    <span class="country font-light-bold">
+                                        <img src="./assets/img/Germany.svg" alt="country">
+                                        J.J won P175
+                                    </span>
+                                    <span class="draw">
+                                        in 7 ИЗ 49 draw #13476
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="winner-group">
+                                <div class="winner-group--logo">
+                                    <img src="./assets/img/winner 1.svg" alt="logo">
+                                </div>
+                                <div class="winner-group--country">
+                                    <span class="date">
+                                        20.11.2021
+                                    </span>
+                                    <span class="country">
+                                        <img src="./assets/img/Germany.svg" alt="country">
+                                        J.J won P175
+                                    </span>
+                                    <span class="draw">
+                                        in 7 ИЗ 49 draw #13476
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="winner-group">
+                                <div class="winner-group--logo">
+                                    <img src="./assets/img/winner 1.svg" alt="logo">
+                                </div>
+                                <div class="winner-group--country">
+                                    <span class="date">
+                                        20.11.2021
+                                    </span>
+                                    <span class="country">
+                                        <img src="./assets/img/Germany.svg" alt="country">
+                                        J.J won P175
+                                    </span>
+                                    <span class="draw">
+                                        in 7 ИЗ 49 draw #13476
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Faq -->
+            <div class="faq d-none d-md-flex">
+                <div class="faq--header font-light-bold">
+                    FREQUENTLY ASKED QUESTION (F.A.Q.)
+                </div>
+                <div class="faq--main">
+                    <div class="question">
+                        <span class="font-light-bold">
+                            Can I play the lottery online?
+                        </span>
+                        <span>
+                            <img src="./assets/img/Vector.svg" alt="Vector">
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        Some Content
+                    </div>
+                    <div class="question">
+                        <span class="font-light-bold">
+                            How will I get my wins?
+                        </span>
+                        <span>
+                            <img src="./assets/img/Vector.svg" alt="Vector">
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        Some Content
+                    </div>
+                    <div class="question">
+                        <span class="font-light-bold">
+                            Is it safe to play lottery online?
+                        </span>
+                        <span>
+                            <img src="./assets/img/Vector.svg" alt="Vector">
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        Some Content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-img">
+                <img src="./assets/img/Untitled.svg" alt="Untitled">
+            </div>
+            <div class="footer-text-box">
+                <div class="footer-text">
+                    <div class="social">
+                        <span>
+                            <img src="./assets/img/whatsappf.svg" alt="">
+                            <span>
+                                <span class="font-family font-light-bold">Live chat by WhatsApp</span>
+                                <span class="font-family font-normal">Customer Service</span>
+                            </span>
+                        </span>
+                        <span class="d-none d-md-flex">
+                            <img src="./assets/img/facebookf.svg" alt="facebook">
+                            <img src="./assets/img/twitterf.svg" alt="twitter">
+                            <img src="./assets/img/facebook-messengerf.svg" alt="facebook-messenger">
+                        </span>
+                    </div>
+                    <!-- Footer Nav -->
+                    <div class="footer-nav">
+                        <div class="footer-col">
+                            <span class="footer-col--header font-bold">
+                                USEFUL LINKS
+                            </span>
+                            <span class="footer-col--main main-col-first">
+                                <span>
+                                    <span>Lottery Results & Winners</span>
+                                    <span>Lottery Promotions</span>
+                                    <span>About Us</span>
+                                    <span>Contact Us</span>
+                                    <span>Terms & Conditions</span>
+                                </span>
+                                <span>
+                                    <span>Security</span>
+                                    <span>Privacy Policy</span>
+                                    <span>Acceptable Use Policy</span>
+                                    <span>Website Use Policy</span>
+                                    <span class="font-bold">Affiliate program</span>
+                                </span>
+
+                            </span>
+                        </div>
+                        <div class="footer-col">
+                            <span class="footer-col--header font-bold">
+                                SMARTWINNERS
+                            </span>
+                            <span class="footer-col--main main-col-second">
+                                <span>
+                                    The trade name SmartWinners and all content on this website is a copyright of
+                                    SmartWinners Limited. All rights reserved. We are an independent lottery ticket
+                                    purchasing service. We are not affiliated with nor are we endorsed by any State
+                                    sanctioned lottery organization. We make no claims on our site to be such.
+                                </span>
+                                <span>
+                                    Our registered business address is Unit 6158, PO Box 6945, London, W1A 6US, United
+                                    Kingdom.
+                                </span>
+                            </span>
+                        </div>
+                        <div class="footer-col">
+                            <span class="footer-col--header font-bold col-header-last">
+                                PAYMENT METHODS
+                                <span class="d-lg-none d-block">
+                                    SECURITY & TRUST
+                                </span>
+                            </span>
+                            <span class="footer-col--main col-main-last">
+                                <!-- Payment Card -->
+                                <span class="payment-cards">
+                                    <span>
+                                        <img src="./assets/img/Visa-dark.svg" alt="Visa">
+                                        <img src="./assets/img/MasterCard-dark.svg" alt="Master">
+                                        <img src="./assets/img/Maestro-dark.svg" alt="Maestro">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/DinersClub-dark.svg" alt="DinersClub-dark">
+                                        <img src="./assets/img/Skrill-dark.svg" alt="Skrill-dark">
+                                        <img src="./assets/img/Bitcoin-dark.svg" alt="Bitcoin-dark">
+                                    </span>
+                                    <span>
+                                        <img src="./assets/img/qiwi 1.svg" alt="qiwi">
+                                        <img src="./assets/img/hsbc 1.svg" alt="hsbc">
+                                        <img src="./assets/img/litecoin 1.svg" alt="litecoin">
+                                    </span>
+                                </span>
+                                <!-- Security & Trust -->
+                                <span class="security-trust-footer">
+                                    <span class="security-trust-tag font-light-bold d-none d-lg-block">
+                                        SECURITY & TRUST
+                                    </span>
+                                    <span class="logos">
+                                        <img src="./assets/img/ctv 1.svg" alt="ctv">
+                                        <img src="./assets/img/comodo 1.svg" alt="comodo">
+                                    </span>
+                                    <span class="d-md-none d-flex gap-2">
+                                        <img src="./assets/img/facebookf.svg" alt="facebook">
+                                        <img src="./assets/img/twitterf.svg" alt="twitter">
+                                        <img src="./assets/img/facebook-messengerf.svg" alt="facebook-messenger">
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>
